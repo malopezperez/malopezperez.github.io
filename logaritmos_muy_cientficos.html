@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_lightbox.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Logaritmos muy científicos | Funciones logarítmicas </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Miguel Ángel López Pérez" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_lightbox.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="udl-content.css" />
+<script type="text/javascript" src="udl-content.js"></script>
+<link rel="stylesheet" type="text/css" href="geogebra-activity.css" />
+<script type="text/javascript" src="geogebra-activity.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+	extensions: ["tex2jax.js"],
+	jax: ["input/TeX", "output/HTML-CSS"],
+	tex2jax: {
+	inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+	displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+	processEscapes: true
+	},
+	"HTML-CSS": { fonts: ["TeX"] },
+	TeX: { equationNumbers: { autoNumber: "AMS" } },
+	loader: {load: ['[tex]/cancel']},
+	tex: {packages: {'[+]': ['cancel']}}	
+  });
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default"></script>
+
+<style>
+.facilitada {
+  font-size: 14pt; 
+  line-height: 1.5; 
+}
+.facilitada ul {
+   line-height: 2.5; 
+}
+
+.facilitada ol {
+   line-height: 2.5; 
+
+}
+.creditos figcaption{
+text-align: center; 
+font-size: 10px; }
+
+
+</style>
+</head>
+<body class="exe-web-site" id="exe-node-142"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Funciones logarítmicas</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Funciones logarítmicas</a></li>
+   <li id="active"><a href="logaritmos_muy_cientficos.html" class="active no-ch">Logaritmos muy científicos</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="index.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><span class="page-counter">Página <strong>2</strong> de <strong>2</strong></span>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Logaritmos muy científicos</h1></header>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id489">
+<div class="iDevice emphasis0" >
+<div id="ta489_504_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header exe-udlContent-character-2"><h2>¿Estás preparado? Comenzamos con una pregunta clave ¿Para qué sirven los logaritmos? PINCHA AQUÍ.</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Vamos a empezar con una <strong>actividad de exploración</strong> en la que vamos a tratar de dar respuesta a la pregunta que aparece en el encabezado ¿para qué sirven los logaritmos? Esto nos servirá como elemento de motivación e interés para seguir aprendiendo.</p>
+<p>¿Qué vamos a hacer? Sencillo, realizaremos una búsqueda en Internet y tomaremos nota, entre las distintas fuentes que encontremos, del uso de los logaritmos en la ciencia. Una vez que todos/as estemos listos, con nuestra información a mano, la vamos a poner en común en la clase y a comentarla con el resto de compañeros/as.</p></div></div></section></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_rep_lee" id="id491">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_rep_lee.svg)"><h1 class="iDeviceTitle">1. Definición de la función logarítmica</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta491_514_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>La <strong>función logarítmica</strong> es aquella función cuya expresión analítica es \( f(x)=log_a(x)\)&nbsp; donde \(a\), base del logaritmo, es un número real positivo distinto de cero y de la unidad, es decir, \(a \in &nbsp;\mathbb{R} \)&nbsp; con \(a&gt;0\)&nbsp; y \(a\neq1\).&nbsp;</p>
+<p>A continuación, puedes ver la representación gráfica del logaritmo en base 2. Fíjate en las siguientes propiedades que profundizaremos en los puntos que vienen a continuación:</p>
+<p>1. La gráfica de la función corta al eje Y en el punto (1,0).</p>
+<p>2. Su dominio son todos los números reales positivos excluyendo el 0.</p>
+<p>3. Es de crecimiento "lento" en todo su dominio.</p>
+<p>4. Decrece "bruscamente" a medida que se acerca a \( x=0\)</p>
+<p><img src="f4_2_grafica_2.png" alt="La imagen muestra la representación gráfica de la función." title="Gráfica" style="display: block; margin-left: auto; margin-right: auto;" width="500" height="304"></p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_rep_lee" id="id492">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_rep_lee.svg)"><h1 class="iDeviceTitle">2. Características</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta492_515_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>A continuación, vamos a estudiar <strong>las características</strong> de esta nueva función \(f(x)=\log_a x\), esto nos ayudará a diferenciarla de las otras funciones.</p>
+<div class="exe-fx exe-tabs">
+<h2>Dominio</h2>
+<div style="display: flex; align-items: center; flex-wrap: wrap;">
+<div style="flex: 1;">
+<p>Recuerda que el dominio de definición de una función está formado por todos aquellos valores de la variable independiente \(x \) para los cuales puedo calcular los correspondientes valores de la variable dependiente \(y \); no se pueden realizar los logaritmos de números negativos o del cero.&nbsp;</p>
+<p>Siempre que la expresión de la función sea de la forma \(f(x)=log_a(x)\),&nbsp; su dominio estará formado por todos los valores que hagan que la variable independiente \(x&gt;0\), es decir, el dominio estará formado por todos los números positivos, \(Dom(f(x))=(0,+\infty)\).</p>
+<p>En el caso en que en la función logarítmica no apareciera sola la \(x\), tendríamos que resolver la inecuación de primer grado que resulta para poder obtener su dominio.</p>
+</div>
+<figure style="flex: none; width: 300px; margin: 10px;"><img src="f4_2_grafica_5.png" alt="La imagen muestra la gráfica de la función" title="Gráfica" width="500" height="352" style="display: block; margin-left: auto; margin-right: auto;">
+<figcaption style="font-size: 10px;">Para la función \( f(x)=log_5(3x-9)\), su dominio será el conjunto de los números reales que hagan que \(3x-9&gt;0\). Cuando resuelves la inecuación obtienes que \(x&gt;3\), por lo tanto el \(Dom(f(x))=(3,+\infty)\)</figcaption>
+</figure>
+</div>
+<h2>Recorrido o imagen</h2>
+<p>El recorrido o imagen de esta función es el conjunto de los números reales, \(Im(f(x))=\ \mathbb{R}=(-\infty, +\infty) \).</p>
+<h2>Puntos de corte&nbsp;</h2>
+<div style="display: flex; align-items: center; flex-wrap: wrap;">
+<div style="flex: 1;">
+<p>Si la función logarítmica tiene por expresión \(f(x)=log_a(x)\), no va a cortar nunca al eje Y. El punto de corte con eje X es el punto A de coordenadas (1,0), ya que&nbsp; \(log_a(1)=0\).</p>
+<p>Además, todas estas funciones pasan por el punto B de coordenadas (a,1), ya que, por las propiedades de los logaritmos, \(log_a(a)=1\).</p>
+<p>Si la función logarítmica está desplazada, horizontal o verticalmente, los puntos de corte con los ejes X e Y se modificarán en función de cuántas unidades la desplace. Veremos esta idea en los puntos siguientes.</p>
+</div>
+<figure style="flex: 0 0 auto; width: 300px; margin: 10px; text-align: center;"><img src="img1.png" width="342" height="500" title="Gráfica" alt="La imagen muestra los puntos de corte">
+<figcaption style="font-size: 10px;">Puntos de corte para \(f(x)=log_3(x)\)</figcaption>
+</figure>
+</div>
+<h2>Simetría</h2>
+<p>La función logarítmica no tiene simetría.</p>
+<h2>Monotonía</h2>
+<p>Para estudiar su monotonía, hay que tener en cuenta si la base del logaritmo es mayor o menor que 1.</p>
+<div class="exe-layout-2-cols exe-layout-2-50-50 exe-clear">
+<div class="exe-col exe-col-1">
+<p style="text-align: center;">Si \(a&gt;1\), entonces será creciente.</p>
+<img src="img2.png" title="Gráfica" alt="La imagen muestra la monotonía con a>1" height="150"></div>
+<div class="exe-col exe-col-2">
+<p style="text-align: center;">&nbsp;Si&nbsp; \(0&lt;a&lt;1\) entonces será decreciente.</p>
+<img src="img3.png" title="Gráfica" alt="La imagen muestra la monotonía con \(0<a<1\)" height="200"></div>
+</div>
+<h2>Máximos y mínimos relativos</h2>
+<p>Esta función no tiene ni máximos, ni mínimos.</p>
+<h2>Curvatura</h2>
+<p>En el caso de nuestra función, y al igual que sucedía en la monotonía, hay que distinguir si \(a\) es mayor o menor que 1.</p>
+<div class="exe-layout-2-cols exe-layout-2-50-50 exe-clear">
+<div class="exe-col exe-col-1">
+<p style="text-align: center;">Si \(a&gt;1\), entonces será cóncava.</p>
+<img src="img2.png" title="Gráfica" alt="La imagen muestra la monotonía con a>1" height="150"></div>
+<div class="exe-col exe-col-2">
+<p style="text-align: center;">&nbsp;Si&nbsp; \(0&lt;a&lt;1\) entonces será convexa.</p>
+<img src="img3.png" title="Gráfica" alt="La imagen muestra la monotonía con \(0<a<1\)" height="200"></div>
+</div>
+<h2>Continuidad</h2>
+<p>Es una función continua en todo su dominio de definición.</p>
+<h2>Asíntotas</h2>
+<div style="display: flex; align-items: center; flex-wrap: wrap;">
+<div style="flex: 1;">En ocasiones, interesa conocer cómo se comporta una función cuando la variable \( x \) se aproxima a un determinado valor. Las asíntotas verticales (AV) son rectas a las que la función se va aproximando sin llegar a tocarla, definidas por un determinado valor de \(x\) para el que esto ocurre. En la gráfica de la derecha se puede ver que, cuanto más nos acercamos a&nbsp;\(x=2\) por la derecha, el valor de la función, variable \( y\), se va haciendo cada vez más grande y negativo, es decir, tiende a \(-\infty \).</div>
+<figure style="flex: 0 0 auto; width: 300px; margin: 10px; text-align: center;"><img src="img7.png" width="300" height="476" title="Gráfica" alt="La imagen muestra la representación gráfica de la función \(f(x)=log_10(x-2)\)">
+<figcaption style="font-size: 10px;">En este caso, la asíntota vertical es la recta x=2 (la rosa).</figcaption>
+</figure>
+</div>
+<p>La función logarítmica siempre tiene una asíntota vertical. En el caso en que la expresión analítica de la función sea&nbsp; \(f(x)=log_a(x)\), la asíntota es el eje Y, \(x=0\).&nbsp; Si en la función la variable independiente, \(x\), no aparece sola, la asíntota se obtiene igualando a cero el argumento de la función.&nbsp;</p>
+<p>Ejemplo:</p>
+<p>Sea la función \(f(x)=\log_5(3x-9)\) , para obtener su asíntota resolvemos la ecuación \(3x-9=0\), obteniendo que \(x=3\), que será la asíntota vertical de la función.</p>
+<p><img src="img8.png" width="499" height="302" alt="La imagen muestra la gráfica de la función del enunciado" title="Gráfica" style="display: block; margin-left: auto; margin-right: auto;"></p>
+</div></div><article class="exe-udlContent-content-simplified js-hidden"><header class='exe-udlContent-alt-content-title'><h2>Lectura facilitada</h2></header><div class="facilitada">
+<p>Vas a estudiar las características de la función \(f(x)=\log_a x\).</p>
+<div class="exe-fx exe-tabs">
+<h2>Dominio</h2>
+<p>Está formado por el conjunto de todos los números reales</p>
+<p>que hacen que el argumento de la función sea mayor que cero.</p>
+<p>Recuerda que no se pueden realizar los logaritmos de números negativos o del cero. </p>
+<p>En esta función<span style="font-size: 1.05em;"> \(f(x)=log_a(x)\),</span></p>
+<p>el dominio está formado</p>
+<p>por todos los números positivos.</p>
+<p><span style="font-size: 1.05em;">\(Dom(f(x))=(0,+\infty)\).</span></p>
+<p>Si en la función logarítmica no aparece sola la x. </p>
+<p>Resuelve la inecuación de primer grado para poder obtener su dominio.</p>
+<p>Observa el ejemplo. </p>
+<p>Sea la función \( f(x)=log_5(3x-9)\)</p>
+<p>Su dominio es el conjunto de los números reales que hagan que  \(3x-9>0\).</p>
+<p>Resuelve la inecuación y obtienes que  \(x>3\)</p>
+<p>El dominio es \(Dom(f(x))=(3,+\infty)\).</p>
+<img src="f4_2_grafica_5.png" alt="La imagen muestra la gráfica de la función" title="Gráfica" width="500" height="352" style="display: block; margin-left: auto; margin-right: auto;">
+<h2>Recorrido o imagen</h2>
+<p>El recorrido o imagen de esta función es el conjunto de los números reales. </p>
+<p>\(Img(f(x))=\ \mathfrak{R}\).</p>
+<h2>Puntos de corte </h2>
+<p>La función logarítmica tiene por expresión \(f(x)=log_a(x)\).</p>
+<p>No corta al eje Y.</p>
+<p>Corta al eje X en el punto (1,0). </p>
+<p>Todas las funciones pasan por el punto (a,1). </p>
+<p>Se cumple que \(log_a(a)=1\).</p>
+<img src="img1.png" width="342" height="500" title="Gráfica" alt="La imagen muestra los puntos de corte"> <br>Puntos de corte para \(f(x)=log_3(x)\)
+<h2>Simetría</h2>
+<p>La función logarítmica no tiene simetría.</p>
+<h2>Monotonía</h2>
+<p>Observa si la base del logaritmo es mayor o menor que 1. </p>
+<div class="exe-layout-2-cols exe-layout-2-50-50 exe-clear">
+<div class="exe-col exe-col-1">
+<p style="text-align: left;">Si \(a>1\) es creciente.</p>
+<p style="text-align: left;">Si a es mayor que 1.</p>
+<p style="text-align: left;">Es creciente</p>
+<img src="img2.png" title="Gráfica" alt="La imagen muestra la monotonía con a>1" height="150"></div>
+<div class="exe-col exe-col-2">
+<p style="text-align: left;"> Si  \(0<a<1\) entonces="" será="" decreciente.<="" p=""> </a<1\)></p>
+<p style="text-align: left;">Si \(0<a<1\) es="" decreciente.<="" p=""> </a<1\)></p>
+<p style="text-align: left;">Es decreciente.</p>
+<img src="img3.png" title="Gráfica" alt="La imagen muestra la monotonía con \(0<a<1\)" height="200"></div>
+</div>
+<div style="clear: both;"></div>
+<h2>Máximos y mínimos relativos</h2>
+<p>Esta función no tiene ni máximos, ni mínimos.</p>
+<h2>Curvatura</h2>
+<p>La curvatura es una propiedad o característica de las funciones. </p>
+<p>La curvatura  de una función es la desviación </p>
+<p>que tiene la gráfica de la función respecto de una recta. </p>
+<p>Hay dos tipos de curvatura cóncava y convexa.</p>
+<p>La curvatura de una función se calcula estudiando</p>
+<p>los intervalos en que esta función es cóncava o convexa.</p>
+<p>En la figura están representadas dos parábolas.</p>
+<p>una cóncava y otra convexa.</p>
+  <img src="img4.png" width="324" height="500" title="Gráfica" alt="La imagen muestra la representación de una función cóncava frente a una convexa" style="float: left; margin-right: 10px; margin-left: 10px;">
+<div style="clear: both;"></div>
+<p>Distingue  si \(a\) es mayor o menor que 1.</p>
+<div style="display: flex; align-items: center; flex-wrap: wrap;">
+<div style="flex: 1 1 0%;">
+<p style="text-align: left; padding-left: 60px;">Si \(a>1\)</p>
+<p style="text-align: left; padding-left: 60px;">Si \(a\) es mayor que 1 la función es cóncava.</p>
+<img src="img2.png" title="Gráfica" alt="La imagen muestra la monotonía con a>1" width="300" style="display: block; margin-left: auto; margin-right: auto;"></div>
+<div style="flex: 1;">
+<p style="text-align: left; padding-left: 30px;"> Si  \(0<a<1\), entonces="" será="" convexa. <="" p=""> </a<1\),></p>
+<p style="text-align: left; padding-left: 30px;">0 es menor que \(a\)</p>
+<p style="text-align: left; padding-left: 30px;">a es menor que 1</p>
+<p style="text-align: left; padding-left: 30px;">La función es convexa</p>
+<img src="img3.png" title="Gráfica" alt="La imagen muestra la monotonía con \(0<a<1\)" width="300" style="display: block; margin-left: auto; margin-right: auto;"></div>
+</div>
+<h2>Continuidad</h2>
+<p>Es una función continua en todo su dominio de definición.</p>
+<h2>Asíntotas</h2>
+<p>La función logarítmica siempre tiene una asíntota vertical. </p>
+<p>En \(f(x)=\log_a(x)\), la asíntota es el eje Y.</p>
+<p>El eje \(x=0\).  </p>
+<p>Si en la función la variable independiente \(x\) no aparece sola, </p>
+<p>la asíntota la obtienes igualando a cero el argumento de la función. </p>
+<p>Por ejemplo. </p>
+<p>Sea la función \(f(x)=\log_5(3x-9)\). </p>
+<p>Resuelve la ecuación \(3x-9=0\) para obtener su asíntota. </p>
+<p>Obtienes que \(x=3\)</p>
+<p>\(x=3\) es la  asíntota vertical de la función. </p>
+<p><img src="img8.png" width="499" height="302" alt="La imagen muestra la gráfica de la función del enunciado" title="Gráfica" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>En este gráfico, la asíntota es la recta verde.</p>
+</div>
+</div><button class="exe-udlContent-alt-content-hide">Cerrar</button></article><article class="exe-udlContent-content-visual js-hidden"><header class='exe-udlContent-alt-content-title'><h2>Apoyo visual</h2></header><p><img src="funcion_logaritmica_4.2_idevice_3.jpg" alt="" width="794" height="1123"></p><button class="exe-udlContent-alt-content-hide">Cerrar</button></article></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_rep_lee" id="id493">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_rep_lee.svg)"><h1 class="iDeviceTitle">3. La inversa de la función logarítmica</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta493_516_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Dada una función \( f(x) \), su función inversa \(f^{-1}(x) \), es aquella función "que deshace" lo que hace la anterior. En otras palabras, si ambas funciones actúan sucesivamente sobre un número real, obtenemos el número real de partida.</p>
+<p>La <strong>función logarítmica</strong>, \(f(x)=log_a(x)\), es la inversa de la <strong>función exponencial</strong>, \(g(x)=a^x\). Las gráficas de ambas son simétricas respecto de la bisectriz del primer-tercer cuadrante, es decir, respecto la recta \( y=x \).</p>
+<p><a href="f4_2_grafica_3.png" rel="lightbox"> <img src="f4_2_grafica_3.png" alt="La imagen muestra la gráfica de la función" title="Gráfica" width="499" height="371" style="display: block; margin-left: auto; margin-right: auto;"> </a></p>
+<p>De forma análoga, la <strong>función logarítmica</strong>, \(f(x)=log_{\frac{1}{a}}(x)\), es la inversa de la <strong>función exponencial</strong>,&nbsp; \( g(x)=\left ( \Large \frac{1}{a} \right )^x\), y sus gráficas también van a ser simétricas respecto de la bisectriz del primer-tercer cuadrante.</p>
+<p><img src="f4_2_grafica_4.png" alt="La imagen muestra la gráfica de la función" title="Gráfica" width="500" height="234" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<div id="t2c45af38-79f8-7c79-52d2-6f6c4801b185" class="exe-tooltip-text">
+<p><img src="bisectriz.jpg" alt="La imagen muestra un ángulo recto y su bisectriz." title="Bisectriz" width="125" height="83" style="float: left; margin-right: 10px; margin-left: 10px;"></p>
+<strong>Definición</strong>
+<p>Segmento de la recta que divide a un ángulo en dos partes iguales.</p>
+<strong>Ejemplo</strong>
+<p>Dibuja la bisectriz de un ángulo de 90 grados.</p>
+</div></div><article class="exe-udlContent-content-simplified js-hidden"><header class='exe-udlContent-alt-content-title'><h2>Lectura facilitada</h2></header><div class="facilitada">
+<p>La función logarítmica, \(f(x)=log_a(x)\)</p>
+<p>La función exponencial, \(g(x)=a^x\).</p>
+<p>La función logarítmica es la inversa de la función exponencial. </p>
+<p>Las gráficas de la función logarítmica y</p>
+<p>las gráficas de la función exponencial son simétricas </p>
+<p>respecto de la <strong><a href="#t0a8e52f4-546d-6892-343a-5477feed9797" id="link0a8e52f4-546d-6892-343a-5477feed9797" class="exe-tooltip definition-tt titled-tt" title="Bisectriz | Accede a la definición de bisectriz">bisectriz</a></strong> del primer-tercer cuadrante.</p>
+<p><img src="f4_2_grafica_3.png" alt="La imagen muestra la gráfica de la función" title="Gráfica" width="499" height="371" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>La función logarítmica \(f(x)=log_{\frac{1}{a}}(x)\) es la inversa</p>
+<p>de la función exponencial  \( g(x)=\left ( \Large \frac{1}{a} \right )^x\)</p>
+<p>Las gráficas</p>
+<p>de la función logarítmica y </p>
+<p>las gráficas de la función exponencial son simétricas </p>
+<p>respecto de la bisectriz del primer-tercer cuadrante.</p>
+<p><img src="f4_2_grafica_4.png" alt="La imagen muestra la gráfica de la función" title="Gráfica" width="500" height="234" style="display: block; margin-left: auto; margin-right: auto;"></p>
+</div>
+<div id="t0a8e52f4-546d-6892-343a-5477feed9797" class="exe-tooltip-text">
+<div class="facilitada"><img src="bisectriz.jpg" alt="La imagen muestra un ángulo recto y su bisectriz." title="Bisectriz" width="125" height="83" style="float: left; margin-right: 10px; margin-left: 10px;"> <strong>Definición</strong>
+<p>Segmento de la recta que divide a un ángulo en dos partes iguales.</p>
+<strong>Ejemplo</strong>
+<p>Dibuja la bisectriz de un ángulo de 90 grados.</p>
+</div>
+</div><button class="exe-udlContent-alt-content-hide">Cerrar</button></article></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_rep_lee" id="id494">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_rep_lee.svg)"><h1 class="iDeviceTitle">4. Transformaciones</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta494_517_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><div class="exe-fx exe-carousel">
+<h2>\(f(x)=\ b\ \cdot \log_a(x)\)</h2>
+<p>La primera transformación que hacemos con la función logarítmica es multiplicarla por un número: \(f(x)=\ b\ \cdot \log_a(x)\). Si el número \(b&gt;0\), entonces la función tiene las mismas características que la de partida, en lo único que difiere es que su crecimiento es más rápido a medida que \(b\) es más grande. </p>
+<p>Si \(b\) es negativo, la función pasa de ser creciente a decreciente y, al igual que sucedía en el caso anterior, la función decrece más rápidamente si \(b\) es menor.</p>
+<center><iframe width="600px" height="350px" style="border: 0px;" scrolling="no" title="GG_MAT4ESO_REA03_LogaritmoPorUnNúmero" src="https://www.geogebra.org/material/iframe/id/s8tcw3q8/width/784/height/418/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false">
+        </iframe></center>
+<h2>\(f(x)=log_a(x) \pm c\)</h2>
+<p>La segunda transformación que realizamos, consiste en sumar o restar un número al logaritmo, \(f(x)=log_a(x) \pm c\). Según sea \(c\) positivo o negativo, la función se desplaza arriba o abajo.</p>
+<center><iframe width="600px" height="350px" style="border: 0px;" scrolling="no" title="GG_MAT4ESO_REA03_LogaritmoSumoNúmero" src="https://www.geogebra.org/material/iframe/id/heanwvfj/width/778/height/415/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false">
+        </iframe></center>
+<h2>\(f(x)=\log_a(d \cdot x)\)</h2>
+<p>En la tercera transformación, multiplicamos la variable independiente, \(x\), del argumento, por un número, la expresión de la función es&nbsp; \(f(x)=\log_a(d \cdot x)\). Cuanto mayor sea \(d\), en valor absoluto, más se va a aproximar la función al eje Y.&nbsp;</p>
+<center><iframe width="600px" height="350px" style="border: 0px;" scrolling="no" title="GG_MAT4ESO_REA03_LogaritmoXporNúmero" src="https://www.geogebra.org/material/iframe/id/fxv3ynhj/width/783/height/417/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false">
+        </iframe></center>
+<h2>\(f(x)=\log_a(x\pm s)\)</h2>
+<p>Finalmente, transformamos la función sumándole o restándole un número a la variable independiente, \(x\), del argumento, por lo que obtenemos una nueva función \(f(x)=\log_a(x\pm s)\). Hay un desplazamiento de la función en el eje X, hacia la izquierda si \(s\) es negativo, y hacia la derecha si \(s\) es positivo.&nbsp;</p>
+<center><iframe width="589px" height="304px" style="border: 0px;" src="https://www.geogebra.org/material/iframe/id/zkxq5gp2/width/589/height/304/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false">
+        </iframe></center></div></div><article class="exe-udlContent-content-simplified js-hidden"><header class='exe-udlContent-alt-content-title'><h2>Lectura facilitada</h2></header><div class="facilitada">
+<div class="exe-fx exe-carousel">
+<h2>\(f(x)=\ b\ \cdot \log_a(x)\)</h2>
+<ul>
+<li>Multiplica la función logarítmica por un número: \(f(x)=\ b\ \cdot \log_a(x)\).</li>
+<li>Si el número \(b>0\) la función tiene las mismas características que la de partida.</li>
+<li>Su crecimiento es más rápido a medida que \(b\) es más grande.</li>
+<li>Si \(b\) es negativo la función pasa de ser creciente a decreciente</li>
+<li>La función decrece más rápidamente si \(b\) es menor.</li>
+</ul>
+<center><iframe width="600px" height="350px" style="border: 0px;" scrolling="no" title="GG_MAT4ESO_REA03_LogaritmoPorUnNúmero" src="https://www.geogebra.org/material/iframe/id/s8tcw3q8/width/784/height/418/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false">
+            </iframe></center>
+<h2>\(f(x)=log_a(x) \pm c\)</h2>
+<ul>
+<li>Suma o resta un número al logaritmo.</li>
+<li>La expresión de la función es<span style="font-size: 1.05em;"> \(f(x)=log_a(x) \pm c\).</span></li>
+<li><span style="font-size: 1.05em;"> Según sea \(c\) positivo o negativo</span></li>
+<li><span style="font-size: 1.05em;">La función se desplaza arriba o abajo.</span></li>
+</ul>
+<center><iframe width="600px" height="350px" style="border: 0px;" scrolling="no" title="GG_MAT4ESO_REA03_LogaritmoSumoNúmero" src="https://www.geogebra.org/material/iframe/id/heanwvfj/width/778/height/415/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false">
+            </iframe></center>
+<h2>\(f(x)=\log_a(d \cdot x)\)</h2>
+<ul>
+<li>Multiplica la variable independiente \(x\) por un número.</li>
+<li>La expresión de la función es \(f(x)=\log_a(d \cdot x)\).</li>
+<li>Cuanto mayor sea \(d\) más se va a aproximar la función al eje Y. </li>
+</ul>
+<center><iframe width="600px" height="350px" style="border: 0px;" scrolling="no" title="GG_MAT4ESO_REA03_LogaritmoXporNúmero" src="https://www.geogebra.org/material/iframe/id/fxv3ynhj/width/783/height/417/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false">
+            </iframe></center>
+<h2>\(f(x)=\log_a(x\pm s)\)</h2>
+<ul>
+<li>Suma o resta un número a la variable independiente \(x\).</li>
+<li>La expresión de la función es \(f(x)=\log_a(x\pm s)\).</li>
+<li>Hay un desplazamiento de la función en el eje X.</li>
+<li>La función se desplaza hacia la izquierda si \(s\) es negativo.</li>
+<li>La función se desplaza hacia la derecha si \(s\) es positivo.</li>
+</ul>
+<center><iframe width="589px" height="304px" style="border: 0px;" src="https://www.geogebra.org/material/iframe/id/zkxq5gp2/width/589/height/304/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false">
+        </iframe></center></div>
+</div><button class="exe-udlContent-alt-content-hide">Cerrar</button></article></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper GeoGebraIdevice em_iDevice em_iDevice_udl_exp_interactivo" id="id497">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_interactivo.svg)"><h1 class="iDeviceTitle">Estudio de la gráfica con Geogebra. PINCHA AQUÍ.</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta497_520_2" class="block iDevice_content">
+<div class="auto-geogebra auto-geogebra-qabqjzh6 auto-geogebra-width-782 auto-geogebra-height-563 language-es ShowAuthor0 auto-geogebra-scale-100 auto-geogebra-evaluation-id-0 auto-geogebra-ideviceid-202442010103-120"><div class="auto-geogebra-instructions"><p>Pulsa "Genera Función" para que salga una función logarítmica desplazada en la dirección de los ejes X e Y.</p>
+<p>Debes mover los cursores hasta que la función coincida con la generada automáticamente por la aplicación. Cuando esto ocurra te saldrá un mensaje indicándote que lo has hecho correctamente.</p></div><p><a href="https://www.geogebra.org/m/qabqjzh6" target="_blank">https://www.geogebra.org/m/qabqjzh6 (Ventana nueva)</a></p><div class="auto-geogebra-author js-hidden">Proyecto%20REA%20Andaluc%EDa,https%3A//www.geogebra.org/m/qabqjzh6,GG_MAT4ESO_REA3_Logaritmos_marchosos_opcA,0,Autor%EDa</div><div class="auto-geogebra-messages-evaluation">Actividad%20no%20completada,Actividad%20superada.%20Puntuaci%F3n%3A%20%25s,Actividad%20no%20superada.%20Puntuaci%F3n%3A%20%25s,Guardar%20la%20puntuaci%F3n</div></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_rep_lee" id="id495">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_rep_lee.svg)"><h1 class="iDeviceTitle">5. Logarítmicas importantes</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta495_518_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><img src="f4_2_John_Napier.jpg" alt="La imagen muestra un retrato de John Napier" title="John Napier" width="102" height="125" hspace="10" style="margin-right: 10px; margin-left: 10px; float: left;">Existe<span style="font-size: 1.05em;">n dos funciones logarítmicas muy importantes y utilizadas en otras disciplinas.&nbsp;</span></p>
+<figure class="exe-figure exe-image float-left license-CC-BY" style="width: 102px;">
+<figcaption class="figcaption"><span class="author">Wikipedia</span>. <a href="https://es.wikipedia.org/wiki/John_Napier" target="_blank" class="title" rel="noopener"><em>John Napier, matemático escocés</em></a> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/licenses/?lang=es" rel="license nofollow noopener" target="_blank" title="Creative Commons BY">CC BY</a><span class="sep">)<br><br></span></span></figcaption>
+</figure>
+<p>- La primera de ellas es \(f(x)=\log (x)\). En este caso, el logaritmo que forma parte de la función es en base 10.</p>
+<p>- En el caso de la segunda función, \( f(x)=\ln (x) \), el logaritmo que forma parte de ella es de base el número \(e\), y se denomina logaritmo natural o neperiano, en honor al matemático John Napier.&nbsp;</p>
+<p>- Ambos tipos de logaritmos aparecen en las calculadoras científicas convencionales.</p></div><article class="exe-udlContent-content-simplified js-hidden"><header class='exe-udlContent-alt-content-title'><h2>Lectura facilitada</h2></header><div class="facilitada">
+<p>Existen dos funciones logarítmicas muy importantes.</p>
+<p>Son funciones logarítmicas utilizadas en otras disciplinas. <span style="font-size: 1.05em;"> </span></p>
+<p><img src="f4_2_John_Napier.jpg" alt="La imagen muestra un retrato de John Napier" title="John Napier" width="102" height="125" style="float: left; margin-right: 10px; margin-left: 10px;"></p>
+<ul style="overflow: hidden;">
+<li>Función logarítmica \(f(x)=\log (x)\).
+<ul>
+<li>El logaritmo que forma parte de la función es en base 10.</li>
+</ul>
+</li>
+<li>Función logarítmica \( f(x)=\ln (x) \).
+<ul>
+<li>El logaritmo que forma parte de ella es de base el número \(e\).</li>
+<li>Se denomina logaritmo natural o neperiano, en honor al matemático John Napier. </li>
+</ul>
+</li>
+</ul>
+</div><button class="exe-udlContent-alt-content-hide">Cerrar</button></article></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id500">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Representaciones para hacer en el cuaderno. PINCHA AQUÍ.</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta500_523_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Representa en tu cuaderno las siguientes funciones logarítmicas:</p>
+<ol style="list-style-type: lower-alpha;">
+<li>
+<p>\(f(x)=\log(x-6)\)</p>
+</li>
+<li>\( g(x)=ln(2-x)\)</li>
+<li>
+<p>\(h(x)=\log_{\frac{1}{4}}(2x-10)\)</p>
+</li>
+<li>
+<p>\(s(x)=\log_3(x+4)-2\)</p>
+</li>
+</ol></div></div></section><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header exe-udlContent-character-4"><h2><span class="sr-av">Lumen dice... </span>¿Necesitas ayuda?</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><div class="exe-fx exe-accordion">
+<h2>Paso 1</h2>
+<p>Calcula el dominio de la función. Para ello resuelve la inecuación que obtienes al hacer el argumento de cada uno de los logaritmos, imponiendo que sea mayor estricto que cero.</p>
+<h2>Paso 2</h2>
+<p>Dibuja la asíntota vertical que obtienes al igualar el argumento del logaritmo a cero.&nbsp;</p>
+<h2>Paso 3</h2>
+<p>Para finalizar confecciona una tabla de valores y representa los puntos obtenidos. Recuerda que solamente le puedes dar valores del dominio de definición de la función.&nbsp;</p>
+<h2>Ayuda adicional</h2>
+<p>Si lo necesitas ayúdate de la calculadora gráfica Geogebra.</p>
+<p><a href="https://www.geogebra.org/graphing?lang=es">https://www.geogebra.org/graphing?lang=es</a></p>
+<p>Puedes usar la calculadora para obtener los valores de la y. Aunque con la calculadora convencional sólo puedes hacer el logaritmo neperiano y el logaritmo en base diez, puedes aplicar un cambio de base y así calcular el logaritmo en cualquier base. La fórmula del cambio es:</p>
+<div class="exe-math code-only exe-math-engine position-center">
+<p class="exe-math-code">\log_a b = \frac {\ln b}{\ln a} \ \ \ \ \text o \ \ \ \ \log_a b = \frac {\log b}{\log a}</p>
+</div>
+</div></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id501">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Resolvemos problemas. Tarea Google Classroom. PINCHA AQUÍ.</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta501_524_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><span style="font-size: 14pt;"><strong>Escoge uno de estos tres problemas y trata de resolverlo en tu cuaderno junto con tu compañero/a. Más abajo tienes algunas indicaciones que pueden ayudarte. Sube una captura de pantalla de la representación gráfica de la función pedida en la tarea correspondiente de Classroom, junto con los resultados obtenidos en cada uno de los apartados, en un archivo PDF.</strong></span></p>
+<p>P1) La escala de Ritcher se utiliza para medir la magnitud de un terremoto. Su fórmula es \(M=\log \left ( \Large \frac {I}{10^{-4}} \right ) \).&nbsp; \(M\) es la magnitud del terremoto en la escala Ritcher, \(I\) es la intensidad del terremoto medida por la amplitud del sismómetro tomada a 100 km del epicentro y \(10^{-4}\) la intensidad de un terremoto estándar.</p>
+<p>El uno de noviembre de 1755 se produjo un terremoto en Lisboa de magnitud 8,5 en la escala Ritcher.</p>
+<ol style="list-style-type: lower-alpha;">
+<li>
+<p>¿Sabrías decir cuál fue la intensidad, \(I\), de dicho terremoto?&nbsp;</p>
+</li>
+<li>
+<p>¿Cuál sería la magnitud de un terremoto cuatro veces más fuerte que el de Lisboa?&nbsp;</p>
+</li>
+<li>
+<p>Dibuja la función magnitud de un terremoto, \(M\) en Geogebra.</p>
+</li>
+</ol>
+<p>P2)&nbsp;El pH (potencial de hidrógeno) es una medida de la acidez o alcalinidad de una disolución (mezcla de agua con otra sustancia química) que indica la concentración de hidrogeniones [H+] (en moles por litro) presentes en la misma. Su expresión matemática es \(pH=-log[H+] \). Un pH igual a 7 indica que la disolución es neutra, si es inferior a 7 es ácida y si es superior a 7 es alcalina o básica.</p>
+<p style="padding-left: 30px;">a. Calcula el pH de una disolución de ácido clorhídrico cuya concentración es \( 2,45 \cdot 10^{-4} \) moles/litro.</p>
+<p style="padding-left: 30px;">b. Calcula el pH de una disolución de hidróxido de sodio cuya concentración es \( 1,56 \cdot 10^{-11} \) moles/litro.</p>
+<p style="padding-left: 30px;">c. Determina la concentración de hidrogeniones en una disolución cuyo pH es 5,5 (neutro para la piel).</p>
+<p style="padding-left: 30px;">d. Dibuja la gráfica de la función \(pH \) en Geogebra.</p>
+<p>P3)&nbsp;Para medir la intensidad sonora se utiliza una unidad de medida, que quizás no has visto en Física todavía, que se llama watios por metro cuadrado. Si midiéramos la intensidad, en un bar por ejemplo, obtendríamos un valor muy pequeño, que se expresa como un número en notación científica con exponente negativo. El decibelio, mide la intensidad sonora con números manejables y su expresión analítica es:</p>
+<p>\( dB =10 \cdot log \left( \dfrac{x}{10^{-12}} \right)\)&nbsp;</p>
+<p>donde x se expresa en watios por metro cuadrado.</p>
+<p style="padding-left: 30px;">a. Calcula los dB en un local cuya intensidad es \( 10^{-6} \; w/m^2 \).</p>
+<p style="padding-left: 30px;">b. Calcula los dB en un local cuya intensidad es \( 10^{-4} \; w/m^2 \).</p>
+<p style="padding-left: 30px;">c. Calcula la intensidad sonora en un local con 35 dB.</p>
+<p style="padding-left: 30px;">d. Dibuja la gráfica de la función \(dB \) en Geogebra.</p></div></div></section><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header exe-udlContent-character-4"><h2><span class="sr-av">Lumen dice... </span>¿Puedo ayudarte?</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>AYUDA P1)</p>
+<p>Para la pregunta a) tendrías que resolver una ecuación logarítmica, despejando \(I\).</p>
+<p>Para la pregunta b), considera \(4I\), y aplicando las propiedades de los logaritmos, obtén \(M\).</p>
+<p>AYUDA P2)&nbsp;</p>
+<p>Para la preguntas a) y b) solamente has de sustituir en la fórmula el valor de la variable independiente (concentración) y determinar el valor de la dependiente \(pH)\), usando con la calculadora.</p>
+<p>Para la pregunta c) has de resolver una ecuación logarítmica, despejando \([H+]\)</p>
+<p>AYUDA P3)&nbsp;</p>
+<p>Para la preguntas a) y b) solamente has de sustituir en la fórmula el valor de la variable independiente (intensidad sonora) y determinar el valor de la dependiente \(dB \), usando con la calculadora.</p>
+<p>Para la pregunta c) has de resolver una ecuación logarítmica, despejando \(x \)</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_eng_saber" id="id502">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_eng_saber.svg)"><h1 class="iDeviceTitle">6. Las funciones logarítmicas en otras disciplinas</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta502_525_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><div style="display: flex; align-items: center; flex-wrap: wrap;">
+<div style="flex: 1;">
+<p>Hemos visto que la función logarítmica aparece en distintos ámbitos de la Ciencia. Sin embargo, la función logarítmica se utiliza en muchas otras disciplinas que van desde la Astronomía hasta la Arqueología. Concluimos este apartado con un vídeo en el puedes ver algunas aplicaciones de los logaritmos en otras áreas de conocimiento.</p>
+<p>Compara la lista que elaboraste al principio para ver si algunas de las que buscaste están incluidas.</p>
+<p style="text-align: center;"><iframe width="560" height="314" src="https://www.youtube.com/embed/BVNl8_9L67k" allowfullscreen="allowfullscreen"></iframe></p>
+</div>
+</div></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id522">
+<div class="iDevice emphasis0" >
+<div id="ta522_582_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header exe-udlContent-character-3"><h2><span class="sr-av">Clavis dice... </span>¿Cómo ha ido todo?</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>¿Te has distraído?</p>
+<p>Seguro que cuando estabas haciendo las actividades anteriores, ha ocurrido algo que te ha hecho parar. Puede que te pusieras a pensar en las cosas que ibas a hacer esta tarde, que el profesor haya hablado con alguien o el ambiente de trabajo no era agradable y te has detenido.</p>
+<p>Cuando aprendemos estamos rodeados de cosas que nos pueden distraer. Al volver a la actividad te cuesta más trabajo centrarte. Por eso es importante que aprendas a controlar tus distracciones. Te doy algunos consejos:</p>
+<ul>
+<li>Concéntrate bien en la actividad que tienes que realizar.</li>
+<li>Si tiene muchos pasos o es muy difícil, haz descansos cortos para descansar.</li>
+<li>Si te molesta lo que hay a tu alrededor trata de ver si puedes reducirlo: cierra las ventanas, pide silencio.</li>
+<li>Piensa que si te distraes tardarás más tiempo en terminar.</li>
+</ul>
+<p>¿Qué te han parecido las dos sesiones de clase?&nbsp;</p>
+<p>Espero que esta metodología te haya resultado motivadora para mejorar tu aprendizaje. No dudes en comentar todo lo que necesites a tu profesor, especialmente las dificultades que has encontrado. Recuerda apoyarte en tus compañeros, en muchas ocasiones pueden resolverte pequeñas dudas que tengas durante la realización de las actividades.</p></div></div></section></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-nc-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="index.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><span class="page-counter">Página <strong>2</strong> de <strong>2</strong></span>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_escolares_js.js"></script></body></html>
